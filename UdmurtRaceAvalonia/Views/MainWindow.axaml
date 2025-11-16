@@ -1,0 +1,131 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:UdmurtRaceAvalonia.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:clients="clr-namespace:UdmurtRace.Views.Clients"
+
+
+		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="UdmurtRaceAvalonia.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="UdmurtRace - Система управления рейсами">
+
+	<Design.DataContext>
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+	<Grid Margin="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Grid.Row="0"
+                   Text="{Binding Header}"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Margin="0,0,0,20"
+                   HorizontalAlignment="Center"/>
+
+		<TabControl Grid.Row="1"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Stretch">
+
+			<TabItem Header="Клиенты">
+				<StackPanel>
+					<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,10">
+						<Button Content="Добавить" Command="{Binding AddClientCommand}" Margin="0,0,10,0"/>
+						<Button Content="Изменить" Command="{Binding EditClientCommand}" 
+								IsEnabled="{Binding SelectedClient, Converter={x:Static ObjectConverters.IsNotNull}}"
+								Margin="0,0,10,0"/>
+						<Button Content="Удалить" Command="{Binding DeleteClientCommand}" 
+								IsEnabled="{Binding SelectedClient, Converter={x:Static ObjectConverters.IsNotNull}}"/>
+					</StackPanel>
+
+					<DataGrid ItemsSource="{Binding Clients}"
+							  SelectedItem="{Binding SelectedClient, Mode=TwoWay}"
+							  AutoGenerateColumns="False"
+							  CanUserResizeColumns="True"
+							  CanUserSortColumns="True"
+							  IsReadOnly="True">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="ID" Binding="{Binding ClientId}" Width="80"/>
+							<DataGridTextColumn Header="Фамилия" Binding="{Binding SurName}" Width="120"/>
+							<DataGridTextColumn Header="Имя" Binding="{Binding ClientName}" Width="120"/>
+							<DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="120"/>
+							<DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="150"/>
+							<DataGridTextColumn Header="Адрес" Binding="{Binding Address}" Width="150"/>
+							<DataGridTextColumn Header="Телефон" Binding="{Binding Phone}" Width="120"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+					<TextBlock Text="{Binding Clients.Count, StringFormat='Клиентов: {0}'}"
+							   Margin="0,10,0,0"
+							   FontStyle="Italic"/>
+				</StackPanel>
+		</TabItem>
+
+
+			<TabItem Header="Рейсы">
+				<StackPanel>
+					<DataGrid ItemsSource="{Binding Races}"
+                          AutoGenerateColumns="False"
+                          CanUserResizeColumns="True"
+                          CanUserSortColumns="True"
+                          IsReadOnly="True">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="ID" Binding="{Binding RaceId}" Width="100"/>
+							<DataGridTextColumn Header="Номер рейса" Binding="{Binding Number}" Width="150"/>
+							<DataGridTextColumn Header="Дата отправления" Binding="{Binding DepartureDate}" Width="150"/>
+							<DataGridTextColumn Header="Время отправления" Binding="{Binding DepartureTime}" Width="150"/>
+							<DataGridTextColumn Header="Цена билета" Binding="{Binding PriceTicket, StringFormat='{}{0:C}'}" Width="150"/>
+							<DataGridTextColumn Header="Места" Binding="{Binding Seats}" Width="100"/>
+							<DataGridTextColumn Header="Описание" Binding="{Binding Description}" Width="200"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<TextBlock Text="{Binding Races.Count, StringFormat='Рейсов: {0}'}"
+						   Margin="0,0,30,0"
+						   FontStyle="Italic"/>
+				</StackPanel>
+			</TabItem>
+
+			<TabItem Header="Продажи">
+				<StackPanel>
+					<DataGrid ItemsSource="{Binding Sales}"
+                          AutoGenerateColumns="False"
+                          CanUserResizeColumns="True"
+                          CanUserSortColumns="True"
+                          IsReadOnly="True">
+						<DataGrid.Columns>
+							<DataGridTextColumn Header="ID" Binding="{Binding SaleId}" Width="100"/>
+							<DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="150"/>
+							<DataGridTextColumn Header="Примечания" Binding="{Binding Notes}" Width="200"/>
+							<DataGridTextColumn Header="ID Клиента" Binding="{Binding ClientId}" Width="100"/>
+							<DataGridTextColumn Header="Клиент" Binding="{Binding Client.ClientName}" Width="120"/>
+							<DataGridTextColumn Header="ID Рейса" Binding="{Binding RaceId}" Width="100"/>
+							<DataGridTextColumn Header="Рейс" Binding="{Binding Race.Number}" Width="100"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<TextBlock Text="{Binding Sales.Count, StringFormat='Продаж: {0}'}"
+						   FontStyle="Italic"/>
+				</StackPanel>
+			</TabItem>
+
+		</TabControl>
+
+		<!--<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+			<TextBlock Text="{Binding Clients.Count, StringFormat='Клиентов: {0}'}"
+                       Margin="0,0,30,0"
+                       FontStyle="Italic"/>
+			<TextBlock Text="{Binding Races.Count, StringFormat='Рейсов: {0}'}"
+                       Margin="0,0,30,0"
+                       FontStyle="Italic"/>
+			<TextBlock Text="{Binding Sales.Count, StringFormat='Продаж: {0}'}"
+                       FontStyle="Italic"/>
+		</StackPanel>-->
+
+	</Grid>
+</Window>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28102923-7EF5-4762-94C0-255F53C20905}|UdmurtRace.Domain\\UdmurtRace.Domain.csproj|c:\\users\\pyotr\\source\\repos\\udmurtrace\\udmurtrace.domain\\abstractions\\repositories\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28102923-7EF5-4762-94C0-255F53C20905}|UdmurtRace.Domain\\UdmurtRace.Domain.csproj|solutionrelative:udmurtrace.domain\\abstractions\\repositories\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4116D8E5-CE5C-4D24-B8D3-5A50306DA917}|UdmurtRaceAvalonia\\UdmurtRace.csproj|c:\\users\\pyotr\\source\\repos\\udmurtrace\\udmurtraceavalonia\\viewmodels\\clients\\clientsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4116D8E5-CE5C-4D24-B8D3-5A50306DA917}|UdmurtRaceAvalonia\\UdmurtRace.csproj|solutionrelative:udmurtraceavalonia\\viewmodels\\clients\\clientsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4116D8E5-CE5C-4D24-B8D3-5A50306DA917}|UdmurtRaceAvalonia\\UdmurtRace.csproj|c:\\users\\pyotr\\source\\repos\\udmurtrace\\udmurtraceavalonia\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4116D8E5-CE5C-4D24-B8D3-5A50306DA917}|UdmurtRaceAvalonia\\UdmurtRace.csproj|solutionrelative:udmurtraceavalonia\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC085A9-C159-4C3E-A1BB-067F2DAA732E}|UdmurtRace.DAL\\UdmurtRace.DAL.csproj|c:\\users\\pyotr\\source\\repos\\udmurtrace\\udmurtrace.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC085A9-C159-4C3E-A1BB-067F2DAA732E}|UdmurtRace.DAL\\UdmurtRace.DAL.csproj|solutionrelative:udmurtrace.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4116D8E5-CE5C-4D24-B8D3-5A50306DA917}|UdmurtRaceAvalonia\\UdmurtRace.csproj|c:\\users\\pyotr\\source\\repos\\udmurtrace\\udmurtraceavalonia\\viewmodels\\clients\\addeditclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4116D8E5-CE5C-4D24-B8D3-5A50306DA917}|UdmurtRaceAvalonia\\UdmurtRace.csproj|solutionrelative:udmurtraceavalonia\\viewmodels\\clients\\addeditclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRace.Domain\\Abstractions\\Repositories\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "UdmurtRace.Domain\\Abstractions\\Repositories\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRace.Domain\\Abstractions\\Repositories\\IClientRepository.cs",
+              "RelativeToolTip": "UdmurtRace.Domain\\Abstractions\\Repositories\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:24:22.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRace.DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UdmurtRace.DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRace.DAL\\AppDbContext.cs",
+              "RelativeToolTip": "UdmurtRace.DAL\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:23:20.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRaceAvalonia\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "UdmurtRaceAvalonia\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRaceAvalonia\\ViewModels\\MainWindowViewModel.cs*",
+              "RelativeToolTip": "UdmurtRaceAvalonia\\ViewModels\\MainWindowViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:20:39.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRaceAvalonia\\ViewModels\\Clients\\ClientsViewModel.cs",
+              "RelativeDocumentMoniker": "UdmurtRaceAvalonia\\ViewModels\\Clients\\ClientsViewModel.cs",
+              "ToolTip": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRaceAvalonia\\ViewModels\\Clients\\ClientsViewModel.cs*",
+              "RelativeToolTip": "UdmurtRaceAvalonia\\ViewModels\\Clients\\ClientsViewModel.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:19:30.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEditClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRaceAvalonia\\ViewModels\\Clients\\AddEditClientViewModel.cs",
+              "RelativeDocumentMoniker": "UdmurtRaceAvalonia\\ViewModels\\Clients\\AddEditClientViewModel.cs",
+              "ToolTip": "C:\\Users\\pyotr\\source\\repos\\UdmurtRace\\UdmurtRaceAvalonia\\ViewModels\\Clients\\AddEditClientViewModel.cs",
+              "RelativeToolTip": "UdmurtRaceAvalonia\\ViewModels\\Clients\\AddEditClientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:19:26.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

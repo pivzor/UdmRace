@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:UdmurtRace.ViewModels.Clients"
+        x:Class="UdmurtRace.Views.Clients.AddEditClientView"
+        x:DataType="vm:AddEditClientViewModel"
+        Width="400" Height="500"
+        Title="{Binding WindowTitle}">
+
+    <StackPanel Margin="20">
+        <TextBox Watermark="Фамилия" Text="{Binding Client.SurName}" Margin="0,5"/>
+        <TextBox Watermark="Имя" Text="{Binding Client.ClientName}" Margin="0,5"/>
+        <TextBox Watermark="Отчество" Text="{Binding Client.Patronymic}" Margin="0,5"/>
+        <TextBox Watermark="Email" Text="{Binding Client.Email}" Margin="0,5"/>
+        <TextBox Watermark="Адрес" Text="{Binding Client.Address}" Margin="0,5"/>
+        <TextBox Watermark="Телефон" Text="{Binding Client.Phone}" Margin="0,5"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button Content="Сохранить" Command="{Binding SaveCommand}" Margin="0,0,10,0"/>
+            <Button Content="Отмена" Command="{Binding CancelCommand}"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

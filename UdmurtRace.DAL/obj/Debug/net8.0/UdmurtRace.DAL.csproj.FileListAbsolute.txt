@@ -1,0 +1,17 @@
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\bin\Debug\net8.0\UdmurtRace.DAL.deps.json
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\bin\Debug\net8.0\UdmurtRace.DAL.runtimeconfig.json
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\bin\Debug\net8.0\UdmurtRace.DAL.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\bin\Debug\net8.0\UdmurtRace.DAL.pdb
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.csproj.AssemblyReference.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.AssemblyInfoInputs.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.AssemblyInfo.cs
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.csproj.CoreCompileInputs.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\refint\UdmurtRace.DAL.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.pdb
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRace.DAL.genruntimeconfig.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\ref\UdmurtRace.DAL.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\bin\Debug\net8.0\UdmurtRace.Domain.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\bin\Debug\net8.0\UdmurtRace.Domain.pdb
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.DAL\obj\Debug\net8.0\UdmurtRa.561B5D27.Up2Date

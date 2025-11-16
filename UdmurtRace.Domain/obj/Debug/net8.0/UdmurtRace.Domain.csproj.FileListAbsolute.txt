@@ -1,0 +1,14 @@
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\bin\Debug\net8.0\UdmurtRace.Domain.deps.json
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\bin\Debug\net8.0\UdmurtRace.Domain.runtimeconfig.json
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\bin\Debug\net8.0\UdmurtRace.Domain.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\bin\Debug\net8.0\UdmurtRace.Domain.pdb
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.csproj.AssemblyReference.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.AssemblyInfoInputs.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.AssemblyInfo.cs
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\refint\UdmurtRace.Domain.dll
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.pdb
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\UdmurtRace.Domain.genruntimeconfig.cache
+C:\Users\pyotr\source\repos\UdmurtRace\UdmurtRace.Domain\obj\Debug\net8.0\ref\UdmurtRace.Domain.dll
